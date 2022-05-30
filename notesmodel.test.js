@@ -20,4 +20,12 @@ describe('NotesModel', () => {
       expect(model.getNotes()).toEqual([`Buy milk`, `Go to the gym`])
     })
   });
+
+  describe('#reset', () => {
+    it('will clear your notes', () => {
+      model.addNote('Buy milk');
+      model.reset();
+      expect(model.getNotes()).toEqual([])
+    });
+  });
 });

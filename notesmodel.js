@@ -7,6 +7,10 @@ class NotesModel {
    return this.notes;
  }
 
+ addNote(note) {
+   this.notes.push(note)
+ }
+
 };
 
 
