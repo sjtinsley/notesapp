@@ -1,0 +1,22 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "notesapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.js --bundle  --outfile=bundle.js --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjtinsley/notesapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjtinsley/notesapp/issues"
+  },
+  "homepage": "https://github.com/sjtinsley/notesapp#readme"
+}
